@@ -16,7 +16,7 @@ namespace GoToGrocery
         //column and add to big list
         foreach (row in databse)
         {
-            myList.Add(new List<string> { "id", "fname", "lname" etc. });
+            myList.Add(new List<string> { "id", "fname", "lname" etc.(item stuff not member stuff) });
         }
 
         // To iterate over it.
