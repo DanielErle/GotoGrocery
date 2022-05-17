@@ -14,10 +14,10 @@ This section will detail how to use the application.
 ### Member Class
 #### Methods
 The methods for this class are as follows:
-- Method 1: Something
-  - This is to do with this...
-- Method 1: Something
-  - This is to do with this...
+- Method 1: textValidation(string text)
+  - This method is a simple validation check for strings which are allowed to contain any a-Z letter
+- Method 1: Validate
+  - This method returns an unsigned integer which is used to determine which fields have failed the validation checks.
 ##### Validation
 The validation method returns a binary value with each bit representing whether validation has passed or failed for a specific property of the class. The relation of bit to property is as follows:
 - Bit 0: NA
@@ -30,12 +30,6 @@ The validation method returns a binary value with each bit representing whether 
 - Bit 7: NA
 If any of the bits are not returned as a "1" or set high, then it is the programmer's job to rectify the issue. 
 
-#### Properties
-All properties within the Member Class are able to get and set. No validation occurs when setting and the validation method must be called to check for the respective validity of set variable.
-- Property 1: Something
-  - This is to do with this...
-- Property 1: Something
-  - This is to do with this...
 ### Inventory Class
 #### Methods
 - Inventory()
